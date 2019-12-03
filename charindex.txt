@@ -1,0 +1,1 @@
+SELECT convert(char(6),dateadd(Month,(-5*convert(int,CHARINDEX('S', 'S'))),right(201906,2))) AS MatchPosition;
